@@ -126,6 +126,7 @@ class StaticLinkedList {
 }
 
 const list = new StaticLinkedList(5)
+
 list.initializeList()
 
 list.addElementOrdered({ element: 12, next: null })
