@@ -22,7 +22,7 @@ This repository contains various data structures implemented in JavaScript. Memo
 - **Description:** A dynamic linked list allocates memory for elements as needed, allowing the list to grow and shrink dynamically.
 - **Purpose:** Useful for scenarios where the number of elements is not known in advance and can vary over time.
 
-## 05_circular_dynamic_linked_list
+## 05_circular_dynamic_linked_list.js
 **Circular Dynamic Linked List**
 - **Description:** A circular linked list is a linked list where the last element points to the first, creating a circular structure.
 - **Purpose:** Useful for applications requiring cyclic iteration over elements, such as round-robin scheduling.
@@ -37,6 +37,16 @@ This repository contains various data structures implemented in JavaScript. Memo
 - **Description:** A dynamic stack is a stack that can grow and shrink dynamically, implemented using a linked list.
 - **Purpose:** Useful for scenarios where the capacity may change over time, providing flexible LIFO access.
 
+## 08_static_queue.js
+**Static Queue**
+- **Description:** A static queue is a queue with a fixed size, implemented using an array. It supports operations like enqueue, dequeue, and peek.
+- **Purpose:** Useful for scenarios with known and fixed capacity, providing First-In-First-Out (FIFO) access.
+
+## 09_dynamic_queue.js
+**Dynamic Queue**
+- **Description:** A dynamic queue is a queue that can grow and shrink dynamically, implemented using a linked list.
+- **Purpose:** Useful for scenarios where the capacity may change over time, providing flexible FIFO access.
+
 ### Memory Allocation
 In these implementations, memory allocation uses `null` values to represent uninitialized or empty slots, ensuring clear and consistent management of the data structures.
 
@@ -46,7 +56,3 @@ To use these data structures, clone the repository and explore each file. Each f
 ```bash
 git clone https://github.com/jordanwmp/algorithm-and-data-structure.git
 cd algorithm-and-data-structure
-
-
-Feel free to customize further as needed. This `README.md` should provide a clear overview of the algorithms and their purposes. 
-
