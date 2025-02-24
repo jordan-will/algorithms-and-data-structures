@@ -47,6 +47,11 @@ This repository contains various data structures implemented in JavaScript. Memo
 - **Description:** A dynamic queue is a queue that can grow and shrink dynamically, implemented using a linked list.
 - **Purpose:** Useful for scenarios where the capacity may change over time, providing flexible FIFO access.
 
+## 10_binary_search_tree.js
+**Binary Search Tree (BST)**
+- **Description:** A binary search tree is a data structure in which each node has at most two children, referred to as the left child and the right child. Each node stores a value, and for any given node, all values in the left subtree are less than the node’s value, and all values in the right subtree are greater than the node’s value.
+- **Purpose:** Useful for scenarios requiring efficient searching, insertion, and deletion of elements. Provides average-case time complexities of O(log n) for these operations, making it ideal for dynamic sets of data where elements are constantly added or removed.
+
 ### Memory Allocation
 In these implementations, memory allocation uses `null` values to represent uninitialized or empty slots, ensuring clear and consistent management of the data structures.
 
