@@ -52,6 +52,16 @@ This repository contains various data structures implemented in JavaScript. Memo
 - **Description:** A binary search tree is a data structure in which each node has at most two children, referred to as the left child and the right child. Each node stores a value, and for any given node, all values in the left subtree are less than the node’s value, and all values in the right subtree are greater than the node’s value.
 - **Purpose:** Useful for scenarios requiring efficient searching, insertion, and deletion of elements. Provides average-case time complexities of O(log n) for these operations, making it ideal for dynamic sets of data where elements are constantly added or removed.
 
+## 11_n_tree.js
+**N-ary Tree**
+- **Description:** An N-ary tree is a tree data structure where each node can have at most N children. Unlike binary trees, where each node has up to two children, N-ary trees allow for a more flexible hierarchical representation.
+- **Purpose:** Useful for representing hierarchical structures such as file systems, XML/HTML document trees, and game decision trees.
+
+## 12_trie.js
+**Trie (Prefix Tree)**
+- **Description:** A trie is a tree data structure used to store a dynamic set of strings. Each node represents a character in a string, and words can be retrieved efficiently by traversing the structure.
+- **Purpose:** Useful for scenarios involving fast word lookup, autocomplete systems, dictionary implementations, and IP routing.
+
 ### Memory Allocation
 In these implementations, memory allocation uses `null` values to represent uninitialized or empty slots, ensuring clear and consistent management of the data structures.
 
@@ -61,3 +71,8 @@ To use these data structures, clone the repository and explore each file. Each f
 ```bash
 git clone https://github.com/jordanwmp/algorithm-and-data-structure.git
 cd algorithm-and-data-structure
+```
+
+### More About Me
+Check out my website to know more about me: [https://jordanwmp.github.io](https://jordanwmp.github.io)
+
