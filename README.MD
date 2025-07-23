@@ -74,5 +74,5 @@ cd algorithm-and-data-structure
 ```
 
 ### More About Me
-Check out my website to know more about me: [https://jordanwmp.github.io](https://jordanwmp.github.io)
+Check out my website to know more about me: [https://jordan-will.github.io](https://jordan-will.github.io)
 
